@@ -1,0 +1,149 @@
+/* Assignment1a Kat Chan CSS */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700); 
+body{ 
+    margin: 0; 
+    background: #222;
+    font-weight: 400;
+    font-family: ‘Montserrat’, sans-serif;
+} 
+
+header{
+    background: #ffdd66
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav{
+    float: right;
+}
+
+nav ul,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 24px;
+    
+    position: relative;
+}
+
+nav ul > li > a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+   display: inline-block;     
+   position: relative;    
+   z-index: 1;
+   padding: 2em;     
+   margin: -2em;
+}
+
+nav a:hover{
+    color: #F6A623;
+}
+
+nav a::before{
+    content:'';
+    display: block;
+    height: 5px;
+    background-color: #444;
+    
+    position: absolute;
+    top: 0;
+    width: 0%;
+    
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+    width: 50%;
+}
+
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover{ 
+    color: #F6A623;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.container{ 
+    max-width: 1000px; /*width: 80%;*/
+    margin: 0 auto; 
+    padding-top: 50px;
+} 
+ 
+.container2{ 
+    max-width: 1150px; 
+    margin: 0 auto;
+    vertical-align: top;
+} 
+
+li>a{ 
+    color: white;
+    text-decoration: none;
+    position: relative
+}
+
+#Heading a:link{
+    float: left;
+    padding: 10px 0;
+    color: #000;
+}
+
+h2, h3, h4{ 
+    color: white;
+}
+
+p{
+    line-height: 1.5; 
+    color: #ddd;
+    
+    font-size: 14px; 
+    font-weight: bold; 
+    text-transform: none; 
+    letter-spacing: 0.1em; 
+}
+
+#ethicsimg,#socialimg{
+    float: right;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.currentImages {  
+  width: 500;  
+  height: 300;  
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto;  
+}  
+ 
+.challengeImages {  
+  width: 300;  
+  height: 175;  
+  display: block;  
+  margin-left: auto;  
+  margin-right: auto;  
+}  
+
+.bulletpoints {  
+  line-height: 1.5;  
+  color: #ddd; 
+  font-size: 14px;  
+  font-weight: bold;  
+  text-transform: none;  
+  letter-spacing: 0.1em;  
+} 
