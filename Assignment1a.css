@@ -1,4 +1,4 @@
-/* Assignment1a Kat Chan CSS */
+/* Assignment1B CSS by Kat Chan*/
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700); 
 body{ 
     margin: 0; 
@@ -116,6 +116,8 @@ p{
     text-transform: none; 
     letter-spacing: 0.1em; 
 }
+
+/*CSS added by Julia and Regina*/
 
 #ethicsimg,#socialimg{
     float: right;
